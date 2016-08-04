@@ -76,4 +76,6 @@ When you are ready for the changes to go live, submit a pull request.
 
 ## Licence
 
+Feel free to take this code/info and use it as you please. If you make something cool then be a good oke and credit the authors ;)
+
 MIT © [Sindre Sorhus](https://sindresorhus.com/)
