@@ -10,7 +10,7 @@ Public git to collaborate on building an KCOB Alumni directory.
 
 
 
-# Features
+## Features
 
 ![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
 
