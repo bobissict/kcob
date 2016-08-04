@@ -1,4 +1,7 @@
-# KCOB Alumni (beta)
+# KCOB Alumni
+
+![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
+
 
 Public git for collaborating on the KCOB alumni network
 
