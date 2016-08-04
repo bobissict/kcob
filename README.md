@@ -49,8 +49,8 @@ Public git to collaborate on building an KCOB Alumni directory.
 # Design
 
 #### Desktop
-<img align="left" src="/assets/screenshots/desktop.jpg" width="400">
-<img align="left" src="/assets/screenshots/mobile.jpg" width="200">
+<img align="left" src="/assets/screenshots/desktop.jpg" width="520">
+<img src="/assets/screenshots/mobile.jpg" width="200">
 <div></div>
 
 
