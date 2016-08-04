@@ -67,4 +67,4 @@ Public git to collaborate on building an KCOB Alumni directory.
 
 # Licence
 
-*add this info*
+MIT © [Sindre Sorhus](https://sindresorhus.com/)
