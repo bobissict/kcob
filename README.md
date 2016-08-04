@@ -81,4 +81,4 @@ If you need any other info feel free to contact one of the [authors](#collaborat
 
 This project is licensed under the terms of the MIT license.
 
-> You can check out the full license here
+> You can check out the full license [here](LICENCE.md)
