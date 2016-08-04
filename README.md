@@ -15,8 +15,9 @@ intro info goes here
 
 ## Screenshots
 
-<img src="/screenshots/mockup_desktop.jpg">
-<img src="/screenshots/mockup_mobile.jpg">
+<img align="left" src="/screenshots/desktop.jpg" width="300">
+<img align="left" src="/screenshots/mockup_desktop.jpg" width="300">
+<img src="/screenshots/mockup_mobile.jpg" width="300">
 
 ## Features
 
