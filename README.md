@@ -3,7 +3,7 @@
 Public git to collaborate on building an KCOB Alumni directory.
 
 * [Overview](#overview)
-* [Features](#features)
+* [Roadmap](#roadmap)
 * [Screenshots](#screenshots)
 * [Collaborators](#collaborators)
 * [Contribute](#contribute)
@@ -13,7 +13,7 @@ Public git to collaborate on building an KCOB Alumni directory.
 
 intro info goes here
 
-## Features
+## Roadmap
 
 ![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
 
