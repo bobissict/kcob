@@ -5,8 +5,8 @@ Public git to collaborate on building an KCOB Alumni directory.
 * [Overview](#overview)
 * [Screenshots](#screenshots)
 * [Features](#features)
-* [Authors](#authors)
 * [Contribute](#contribute)
+* [Authors](#authors)
 * [Licence](#licence)
 
 ## Overview
@@ -55,17 +55,11 @@ intro info goes here
   * Country
   * City
   * Industry
-
-## Authors
-
-* Bo Bissict 
-* Chris Edington
-* Clive Corbishley
-* Gareth Cozens
+ 
 
 ## Contribute
 
-If you would like to contribute, feel free to reach out to one of the authors. Otherwise feel free to just make changes and submit a pull request.
+If you would like to contribute feel free to just make changes and submit a pull request.
 
 ```
 1. Create a branch describing your change. 
@@ -73,6 +67,15 @@ If you would like to contribute, feel free to reach out to one of the authors. O
 ```
 
 When you are ready for the changes to go live, submit a pull request.
+
+If you need any other info feel free to contact one of the [authors](#authors) 
+
+## Authors
+
+* Bo Bissict 
+* Chris Edington
+* Clive Corbishley
+* Gareth Cozens
 
 ## Licence
 
