@@ -6,7 +6,7 @@ Public git to collaborate on building an KCOB Alumni directory.
 
 ![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
 
-**Add a profile to the directory**
+**Create a profile**
 
   * Full Name
   * Year Matriculated
@@ -28,7 +28,7 @@ Public git to collaborate on building an KCOB Alumni directory.
     * Linkedin
     * Email
   
-**Browse profiles in the directory**
+**Browse profiles**
 
 ## Design
 
