@@ -14,7 +14,7 @@ Public git to collaborate on building an KCOB Alumni directory.
 
 ![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
 
-### Create a profile
+## Create a profile
 
 * Full Name
 * Year Matriculated
@@ -49,10 +49,10 @@ Public git to collaborate on building an KCOB Alumni directory.
 # Design
 
 #### Desktop
-<img src="/assets/screenshots/desktop.jpg" width="400">
+<img align="left" src="/assets/screenshots/desktop.jpg" width="400">
+<img align="left" src="/assets/screenshots/mobile.jpg" width="200">
+<div></div>
 
-#### Mobile
-<img src="/assets/screenshots/mobile.jpg" width="200">
 
 # Authors
 
