@@ -2,12 +2,12 @@
 
 Public git to collaborate on building an KCOB Alumni directory.
 
-* Features
+* [Features](#foo)
 * Design
 * Authors
 * Contribute
 
-[Foo](#foo)
+
 
 # Foo
 
