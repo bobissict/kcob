@@ -14,7 +14,7 @@ Public git to collaborate on building an KCOB Alumni directory.
 
 ![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
 
-## Create a profile
+### Create a profile
 
 * Full Name
 * Year Matriculated
@@ -46,21 +46,21 @@ Public git to collaborate on building an KCOB Alumni directory.
   * City
   * Industry
 
-# Screenshots
+## Screenshots
 
 <img align="left" src="/assets/screenshots/desktop.jpg" width="520">
 <img src="/assets/screenshots/mobile.jpg" width="200">
 <div></div>
 
 
-# Authors
+## Authors
 
 * Bo Bissict 
 * Chris Edington
 * Clive Corbishley
 * Gareth Cozens
 
-# Contribute
+## Contribute
 
 If you would like to contribute, feel free to reach out to one of the authors. Otherwise feel free to just make changes and submit a pull request.
 
@@ -71,6 +71,6 @@ If you would like to contribute, feel free to reach out to one of the authors. O
 
 When you are ready for the changes to go live, submit a pull request.
 
-# Licence
+## Licence
 
 MIT © [Sindre Sorhus](https://sindresorhus.com/)
