@@ -3,9 +3,10 @@
 Public git to collaborate on building an KCOB Alumni directory.
 
 * [Features](#features)
-* Design
-* Authors
-* Contribute
+* [Design](#design)
+* [Authors](#authors)
+* [Contribute](#contribute)
+* [Licence](#licence)
 
 
 
@@ -45,7 +46,7 @@ Public git to collaborate on building an KCOB Alumni directory.
   * City
   * Industry
 
-## Design
+# Design
 
 #### Desktop
 <img src="/assets/screenshots/desktop.jpg" width="400">
@@ -53,17 +54,17 @@ Public git to collaborate on building an KCOB Alumni directory.
 #### Mobile
 <img src="/assets/screenshots/mobile.jpg" width="200">
 
-## Authors
+# Authors
 
 * Bo Bissict 
 * Chris Edington
 * Clive Corbishley
 * Gareth Cozens
 
-## Contribute
+# Contribute
 
 *add this info*
 
-## Licence
+# Licence
 
 *add this info*
