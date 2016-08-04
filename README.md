@@ -72,10 +72,10 @@ If you need any other info feel free to contact one of the [authors](#authors)
 
 ## Authors
 
-* Bo Bissict 
-* Chris Edington
-* Clive Corbishley
-* Gareth Cozens
+* [Bo Bissict](https://github.com/bobissict/)
+* [Chris Edington](https://github.com/chriscapetown)
+* [Clive Corbishley](https://github.com/clivecorbishley)
+* [Gareth Cozens](https://github.com/cloudratha)
 
 ## Licence
 
