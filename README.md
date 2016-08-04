@@ -3,22 +3,15 @@
 Public git to collaborate on building an KCOB Alumni directory.
 
 * [Overview](#overview)
-* [Screenshots](#screenshots)
 * [Features](#features)
+* [Screenshots](#screenshots)
+* [Collaborators](#collaborators)
 * [Contribute](#contribute)
-* [Authors](#authors)
 * [Licence](#licence)
 
 ## Overview
 
 intro info goes here
-
-## Screenshots
-
-<img align="left" src="/screenshots/desktop.jpg" height="150">
-<img align="left" src="/screenshots/mockup_desktop.jpg" height="150">
-<img align="left" src="/screenshots/mobile.jpg" height="150">
-<img src="/screenshots/mockup_mobile.jpg" height="150">
 
 ## Features
 
@@ -56,6 +49,19 @@ intro info goes here
   * City
   * Industry
  
+## Screenshots
+
+<img align="left" src="/screenshots/desktop.jpg" height="150">
+<img align="left" src="/screenshots/mockup_desktop.jpg" height="150">
+<img align="left" src="/screenshots/mobile.jpg" height="150">
+<img src="/screenshots/mockup_mobile.jpg" height="150">
+
+## Collaborators
+
+* [Bo Bissict](https://github.com/bobissict/)
+* [Chris Edington](https://github.com/chriscapetown)
+* [Clive Corbishley](https://github.com/clivecorbishley)
+* [Gareth Cozens](https://github.com/cloudratha)
 
 ## Contribute
 
@@ -68,14 +74,8 @@ If you would like to contribute feel free to just make changes and submit a pull
 
 When you are ready for the changes to go live, submit a pull request.
 
-If you need any other info feel free to contact one of the [authors](#authors) 
+If you need any other info feel free to contact one of the [authors](#collaborators) 
 
-## Authors
-
-* [Bo Bissict](https://github.com/bobissict/)
-* [Chris Edington](https://github.com/chriscapetown)
-* [Clive Corbishley](https://github.com/clivecorbishley)
-* [Gareth Cozens](https://github.com/cloudratha)
 
 ## Licence
 
