@@ -63,7 +63,14 @@ Public git to collaborate on building an KCOB Alumni directory.
 
 # Contribute
 
-*add this info*
+If you would like to contribute, feel free to reach out to one of the authors. Otherwise feel free to just make changes and submit a pull request.
+
+```
+1. Create a branch describing your change. 
+2. Make the change and commit it.
+```
+
+When you are ready for the changes to go live, submit a pull request.
 
 # Licence
 
