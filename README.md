@@ -79,6 +79,6 @@ If you need any other info feel free to contact one of the [authors](#collaborat
 
 ## Licence
 
-Feel free to take this code/info and use it as you please. If you make something cool then be a good oke and credit the authors ;)
+This project is licensed under the terms of the MIT license.
 
-MIT © [Sindre Sorhus](https://sindresorhus.com/)
+> You can check out the full license here
