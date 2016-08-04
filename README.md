@@ -6,29 +6,37 @@ Public git to collaborate on building an KCOB Alumni directory.
 
 ![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
 
-**Create a profile**
+### Create a profile
 
-  * Full Name
-  * Year Matriculated
-  * House
-    * Finningley
-    * Gillingham
-    * Pembroke
-    * Sheffield
-  * Location
-    * City
-    * Country
-  * Work
-    * Industry
-      * need to define options 
-    * Company Name
-    * Job Role/Position
-  * Contact
-    * Facebook
-    * Linkedin
-    * Email
+* Full Name
+* Year Matriculated
+* House
+  * Finningley
+  * Gillingham
+  * Pembroke
+  * Sheffield
+* Location
+  * City
+  * Country
+* Work
+  * Industry
+    * need to define options 
+  * Company Name
+  * Job Role/Position
+* Contact
+  * Facebook
+  * Linkedin
+  * Email
   
 **Browse profiles**
+
+* Search by name
+* Filter by
+  * Year
+  * House
+  * Country
+  * City
+  * Industry
 
 ## Design
 
