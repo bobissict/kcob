@@ -2,10 +2,13 @@
 
 ![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
 
+Public git to collaborate on building an KCOB Alumni directory.
 
-Public git for collaborating on the KCOB alumni network
+## Features
 
-## Pages
+![alt text](https://img.shields.io/badge/version-0.01-brightgreen.svg "Logo Title Text 1")
+* Add a profile to the directory
+* Search and browse directory
 
 ### Browse
 
@@ -14,10 +17,6 @@ Public git for collaborating on the KCOB alumni network
 
 #### Mobile
 <img src="/assets/screenshots/mobile.jpg" width="200">
-
-## Features
-
-* Feature list goes here
 
 ## Authors
 
