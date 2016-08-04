@@ -8,10 +8,10 @@ Public git to collaborate on building an KCOB Alumni directory.
 * Add a profile to the directory
 * Search and browse directory
 
-### Browse
+## Design
 
 #### Desktop
-![alt tag](/assets/screenshots/desktop.jpg)
+<img src="/assets/screenshots/desktop.jpg" width="400">
 
 #### Mobile
 <img src="/assets/screenshots/mobile.jpg" width="200">
