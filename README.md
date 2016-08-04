@@ -5,10 +5,14 @@
 
 Public git for collaborating on the KCOB alumni network
 
-## UI Design
+## Pages
 
+### Browse
+
+#### Desktop
 ![alt tag](/assets/screenshots/desktop.jpg)
 
+#### Mobile
 <img src="/assets/screenshots/mobile.jpg" width="200">
 
 ## Features
@@ -17,13 +21,15 @@ Public git for collaborating on the KCOB alumni network
 
 ## Authors
 
-* Bo Bissict - Goturtle
-* Chris Edington - MADE Agency
+* Bo Bissict 
+* Chris Edington
+* Clive Corbishley
+* Gareth Cozens
 
 ## Contribute
 
-Info about contributing goes here
+*add this info*
 
 ## Licence
 
-Info about licence goes here
+*add this info*
