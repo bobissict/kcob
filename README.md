@@ -3,7 +3,7 @@
 Public git to collaborate on building an KCOB Alumni directory.
 
 * [Features](#features)
-* [Design](#design)
+* [Screenshots](#screenshots)
 * [Authors](#authors)
 * [Contribute](#contribute)
 * [Licence](#licence)
@@ -46,9 +46,8 @@ Public git to collaborate on building an KCOB Alumni directory.
   * City
   * Industry
 
-# Design
+# Screenshots
 
-#### Desktop
 <img align="left" src="/assets/screenshots/desktop.jpg" width="520">
 <img src="/assets/screenshots/mobile.jpg" width="200">
 <div></div>
