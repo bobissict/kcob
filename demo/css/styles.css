@@ -51,7 +51,8 @@ body {
 }
 
 .card h3 {
-  margin: 0;
+  margin: 0 0 5px 0;
+  font-size: 1.2em;
 }
 
 .card h4 {
@@ -59,6 +60,7 @@ body {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   margin-bottom: 10px;
+  font-size: 1em;
 }
 
 .card ul.details {
@@ -70,6 +72,10 @@ body {
 .card ul.details li {
   font-size: 0.9em;
   line-height: 1.6em;
+  color: gray;
+}
+.card ul.details li i {
+  margin-right: 2px;
 }
 
 .card ul.contact {
