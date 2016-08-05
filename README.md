@@ -66,7 +66,11 @@ There is a working example of a demo in the [/example](/example) folder.
 
 Working demo was created using HTML, CSS & Javascript + the following plugins
 
+* [bootstrap](http://getbootstrap.com/)
+* [jquery](https://jquery.com/)
 * [Isotope](http://isotope.metafizzy.co/)
+* [Google fonts](https://www.google.com/fonts)
+* [fontawesome](fontawesome.io)
 
 ## Collaborators
 
