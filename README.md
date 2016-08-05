@@ -48,6 +48,9 @@ intro info goes here
   * Country
   * City
   * Industry
+* Sort by
+  * Year
+  * A-z
  
 ## Screenshots
 
