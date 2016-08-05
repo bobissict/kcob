@@ -5,6 +5,7 @@ Public git to collaborate on building an KCOB Alumni directory.
 * [Overview](#overview)
 * [Roadmap](#roadmap)
 * [Screenshots](#screenshots)
+* [Demo](#demo)
 * [Collaborators](#collaborators)
 * [Contribute](#contribute)
 * [Licence](#licence)
@@ -58,6 +59,18 @@ intro info goes here
 <img align="left" src="/screenshots/mockup_desktop.jpg" height="150">
 <img align="left" src="/screenshots/mobile.jpg" height="150">
 <img src="/screenshots/mockup_mobile.jpg" height="150">
+
+## Demo
+
+There is a working example of a demo in the [/example](/example) folder. 
+
+Working demo was created using basic HTML, CSS & Javascript + the following plugins
+
+* [bootstrap](http://getbootstrap.com/)
+* [jquery](https://jquery.com/)
+* [Isotope](http://isotope.metafizzy.co/)
+* [Google fonts](https://www.google.com/fonts)
+* [fontawesome](fontawesome.io)
 
 ## Collaborators
 
