@@ -5,12 +5,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title>KCOB Alumni (demo)</title>
   <meta name="description" content="KCOB Alumni (demo)">
   <meta name="author" content="bobissict">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <script src="https://use.fontawesome.com/a289c68116.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 
   <!--[if lt IE 9]>
@@ -19,172 +20,227 @@
 </head>
 
 <body>
-  <div class="grid">
-    <div class="grid-item">
-      <figure class="card">
-        <span class="pill green">2004</span>
-        <img src="img/dummy-profile/brad.jpg" />
-        <figcaption>
-          <h3>Brad Barritt</h3>
-          <h4>Saracens RFC</h4>
-          <ul class="details">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
-            <li><i class="fa fa-building-o" aria-hidden="true"></i>
-Sports</li>
-          </ul>
-          <ul class="contact">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </figcaption>
-      </figure>
+  <section>
+    <div class="container">
+      <div class="controls">
+        <div class="button-group filters-button-group">
+          <button class="button is-checked btn btn-default" data-filter="*">show all</button>
+        </div>
+        <div class="btn-group filters-button-group">
+          <button class="button btn btn-default" data-filter=".finningley">Finningley</button>
+          <button class="button btn btn-default" data-filter=".gillingham">Gillingham</button>
+          <button class="button btn btn-default" data-filter=".pembroke">Pembroke</button>
+          <button class="button btn btn-default" data-filter=".sheffield">Sheffield</button>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="grid-item transition finningley " data-category="transition">
+          <figure class="card">
+            <span class="pill blue">2004</span>
+            <img src="img/dummy-profile/bo.jpg" />
+            <figcaption>
+              <h3>Bo Bissict</h3>
+              <h4>Co-Founder at MADE Agency</h4>
+              <ul class="details">
+                <li><i class="fa fa-globe" aria-hidden="true"></i> Cape Town, South Africa</li>
+                <li><i class="fa fa-building-o" aria-hidden="true"></i> Marketing & Advertising
+                </li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="grid-item">
+          <figure class="card">
+            <span class="pill green">2004</span>
+            <img src="img/dummy-profile/brad.jpg" />
+            <figcaption>
+              <h3>Brad Barritt</h3>
+              <h4>Saracens RFC</h4>
+              <ul class="details">
+                <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
+                <li><i class="fa fa-building-o" aria-hidden="true"></i> Sports
+                </li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="grid-item">
+          <figure class="card">
+            <span class="pill blue">2004</span>
+            <img src="img/dummy-profile/marsh.jpg" />
+            <figcaption>
+              <h3>Geoff Butcher</h3>
+              <h4>Merchandise Planner at Game</h4>
+              <ul class="details">
+                <li><i class="fa fa-globe" aria-hidden="true"></i> Durban, South Africa</li>
+                <li><i class="fa fa-building-o" aria-hidden="true"></i> Import and Export
+                </li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="grid-item">
+          <figure class="card">
+            <span class="pill blue">2004</span>
+            <img src="img/dummy-profile/logs.jpg" />
+            <figcaption>
+              <h3>Greg Hesse</h3>
+              <h4>Sales Executive at Lonrho Logistics</h4>
+              <ul class="details">
+                <li><i class="fa fa-globe" aria-hidden="true"></i> Durban, South Africa</li>
+                <li><i class="fa fa-building-o" aria-hidden="true"></i> Sports</li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="grid-item">
+          <figure class="card">
+            <span class="pill red">2004</span>
+            <img src="img/dummy-profile/kyle.jpg" />
+            <figcaption>
+              <h3>Kyle Connolly</h3>
+              <h4>Business Development at Ensure Security</h4>
+              <ul class="details">
+                <li><i class="fa fa-globe" aria-hidden="true"></i> Durban, South Africa</li>
+                <li><i class="fa fa-building-o" aria-hidden="true"></i> Security and Investigations</li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="grid-item">
+          <figure class="card">
+            <span class="pill red">2004</span>
+            <img src="img/dummy-profile/shack.jpg" />
+            <figcaption>
+              <h3>Marc Stack</h3>
+              <h4>Financial Manager at Dormac</h4>
+              <ul class="details">
+                <li><i class="fa fa-globe" aria-hidden="true"></i> Cape Town, South Africa</li>
+                <li><i class="fa fa-building-o" aria-hidden="true"></i> Maritime</li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="grid-item">
+          <figure class="card">
+            <span class="pill green">2004</span>
+            <img src="img/dummy-profile/fassey.jpg" />
+            <figcaption>
+              <h3>Ryan Massey</h3>
+              <h4>Trader: Grinrod Securities</h4>
+              <ul class="details">
+                <li><i class="fa fa-globe" aria-hidden="true"></i> Durban, South Africa</li>
+                <li><i class="fa fa-building-o" aria-hidden="true"></i> Financial Services</li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="grid-item">
+          <figure class="card">
+            <span class="pill blue">2004</span>
+            <img src="img/dummy-profile/scott.jpg" />
+            <figcaption>
+              <h3>Scott Canny</h3>
+              <h4>CEO at BET.co.za</h4>
+              <ul class="details">
+                <li><i class="fa fa-globe" aria-hidden="true"></i> Cape Town, South Africa</li>
+                <li><i class="fa fa-building-o" aria-hidden="true"></i> Sports</li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
-    <div class="grid-item">
-      <figure class="card">
-        <span class="pill green">2004</span>
-        <img src="img/dummy-profile/brad.jpg" />
-        <figcaption>
-          <h3>Brad Barritt</h3>
-          <h4>Saracens RFC</h4>
-          <ul class="details">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
-            <li><i class="fa fa-building-o" aria-hidden="true"></i>
-Sports</li>
-          </ul>
-          <ul class="contact">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="grid-item">
-      <figure class="card">
-        <span class="pill green">2004</span>
-        <img src="img/dummy-profile/brad.jpg" />
-        <figcaption>
-          <h3>Brad Barritt</h3>
-          <h4>Saracens RFC</h4>
-          <ul class="details">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
-            <li><i class="fa fa-building-o" aria-hidden="true"></i>
-Sports</li>
-          </ul>
-          <ul class="contact">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="grid-item">
-      <figure class="card">
-        <span class="pill green">2004</span>
-        <img src="img/dummy-profile/brad.jpg" />
-        <figcaption>
-          <h3>Brad Barritt</h3>
-          <h4>Saracens RFC</h4>
-          <ul class="details">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
-            <li><i class="fa fa-building-o" aria-hidden="true"></i> Sports</li>
-          </ul>
-          <ul class="contact">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="grid-item">
-      <figure class="card">
-        <span class="pill green">2004</span>
-        <img src="img/dummy-profile/brad.jpg" />
-        <figcaption>
-          <h3>Brad Barritt</h3>
-          <h4>Saracens RFC</h4>
-          <ul class="details">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
-            <li><i class="fa fa-building-o" aria-hidden="true"></i> Sports</li>
-          </ul>
-          <ul class="contact">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="grid-item">
-      <figure class="card">
-        <span class="pill green">2004</span>
-        <img src="img/dummy-profile/brad.jpg" />
-        <figcaption>
-          <h3>Brad Barritt</h3>
-          <h4>Saracens RFC</h4>
-          <ul class="details">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
-            <li><i class="fa fa-building-o" aria-hidden="true"></i> Sports</li>
-          </ul>
-          <ul class="contact">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="grid-item">
-      <figure class="card">
-        <span class="pill green">2004</span>
-        <img src="img/dummy-profile/brad.jpg" />
-        <figcaption>
-          <h3>Brad Barritt</h3>
-          <h4>Saracens RFC</h4>
-          <ul class="details">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
-            <li><i class="fa fa-building-o" aria-hidden="true"></i> Sports</li>
-          </ul>
-          <ul class="contact">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="grid-item">
-      <figure class="card">
-        <span class="pill green">2004</span>
-        <img src="img/dummy-profile/brad.jpg" />
-        <figcaption>
-          <h3>Brad Barritt</h3>
-          <h4>Saracens RFC</h4>
-          <ul class="details">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> London, United Kingdom</li>
-            <li><i class="fa fa-building-o" aria-hidden="true"></i> Sports</li>
-          </ul>
-          <ul class="contact">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </figcaption>
-      </figure>
-    </div>
+  </section>
 
-  </div>
+
+
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
   <script>
-    $('.grid').isotope({
-      // options
+
+    // init Isotope
+    var $grid = $('.grid').isotope({
       itemSelector: '.grid-item',
-      layoutMode: 'fitRows'
+      percentPosition: true,
+      masonry: {
+        // use outer width of grid-sizer for columnWidth
+        columnWidth: '.grid-sizer'
+      }
+    });
+    // filter functions
+    var filterFns = {
+      // show if number is greater than 50
+      numberGreaterThan50: function() {
+        var number = $(this).find('.number').text();
+        return parseInt(number, 10) > 50;
+      },
+      // show if name ends with -ium
+      ium: function() {
+        var name = $(this).find('.name').text();
+        return name.match(/ium$/);
+      }
+    };
+    // bind filter button click
+    $('.filters-button-group').on('click', 'button', function() {
+      var filterValue = $(this).attr('data-filter');
+      // use filterFn if matches value
+      filterValue = filterFns[filterValue] || filterValue;
+      $grid.isotope({
+        filter: filterValue
+      });
+    });
+    // change is-checked class on buttons
+    $('.button-group').each(function(i, buttonGroup) {
+      var $buttonGroup = $(buttonGroup);
+      $buttonGroup.on('click', 'button', function() {
+        $buttonGroup.find('.is-checked').removeClass('is-checked');
+        $(this).addClass('is-checked');
+      });
     });
   </script>
 </body>

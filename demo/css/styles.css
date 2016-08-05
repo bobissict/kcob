@@ -3,7 +3,7 @@ body {
   background: rgba(0,0,0,.1);
   font-weight: 400;
 }
-.grid-item {
+.grid-item, .grid-sizer {
   width: 25%;
 }
 .card {
@@ -22,6 +22,7 @@ body {
   color: white;
   padding: 5px 15px;
   border-radius: 50px;
+  z-index: 1;
 }
 .card .pill.green {
   background: green;
@@ -37,6 +38,13 @@ body {
 }
 .card img {
   max-width: 100%;
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all ease 0.2s;
+}
+.card:hover img {
+
 }
 .card figcaption {
   padding: 15px;
