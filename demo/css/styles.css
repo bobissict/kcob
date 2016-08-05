@@ -79,3 +79,21 @@ body {
 .card ul.contact li a {
   color: black;
 }
+
+@media only screen and (max-width: 960px) {
+    .grid-item {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .grid-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .grid-item {
+        width: 100%;
+    }
+}
