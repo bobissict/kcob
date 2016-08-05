@@ -62,7 +62,11 @@ intro info goes here
 
 ## Demo
 
-There is a working example of a demo in the [/example](/example) folder
+There is a working example of a demo in the [/example](/example) folder. 
+
+Working demo was created using HTML, CSS & Javascript + the following plugins
+
+* [Isotope](http://isotope.metafizzy.co/)
 
 ## Collaborators
 
