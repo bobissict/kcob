@@ -64,7 +64,7 @@ intro info goes here
 
 There is a working example of a demo in the [/example](/example) folder. 
 
-Working demo was created using HTML, CSS & Javascript + the following plugins
+Working demo was created using basic HTML, CSS & Javascript + the following plugins
 
 * [bootstrap](http://getbootstrap.com/)
 * [jquery](https://jquery.com/)
