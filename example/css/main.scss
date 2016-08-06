@@ -1,7 +1,27 @@
+$maroon: #611725;
+$blue: #1976D2;
+$green: #388E3C;
+$red: #D32F2F;
+$yellow: #FFEB3B;
+html {
+    height: 100%;
+}
 body {
     font-family: 'Work Sans', sans-serif;
     background: rgba(0,0,0,.1);
     font-weight: 400;
+    height: 100%;
+}
+.sidenav {
+    background: $maroon;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 280px;
+    height: 100%;
+}
+.content {
+    margin-left: 300px;
 }
 .grid-item,
 .grid-sizer {
@@ -24,16 +44,16 @@ body {
         border-radius: 50px;
         z-index: 1;
         &.green {
-            background: green;
+            background: $green;
         }
         &.blue {
-            background: blue;
+            background: $blue;
         }
         &.red {
-            background: red;
+            background: $red;
         }
         &.pill.yellow {
-            background: yellow;
+            background: $yellow;
         }
     }
     img {
