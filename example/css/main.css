@@ -7,6 +7,11 @@ body {
   font-weight: 400;
   height: 100%; }
 
+.badge {
+  background: rgba(0, 0, 0, 0.2);
+  font-weight: 300;
+  border-radius: 5px; }
+
 .sidenav {
   background: #611725;
   position: fixed;
@@ -172,11 +177,6 @@ ul.contact {
     margin-right: 5px; }
     ul.contact li a {
       color: black; }
-
-.badge {
-  background: rgba(0, 0, 0, 0.2);
-  font-weight: 300;
-  border-radius: 5px; }
 
 @media only screen and (max-width: 960px) {
   .grid-item {
