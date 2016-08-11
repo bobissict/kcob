@@ -131,11 +131,11 @@ body {
     border-radius: 50px;
     z-index: 1; }
     .card .pill.green {
-      background: #388E3C; }
+      background: #4CAF50; }
     .card .pill.blue {
       background: #1976D2; }
     .card .pill.red {
-      background: #D32F2F; }
+      background: #F44336; }
     .card .pill.pill.yellow {
       background: #FFEB3B; }
   .card img {
