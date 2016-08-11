@@ -14,9 +14,10 @@ body {
   top: 0;
   width: 280px;
   height: 100%;
-  padding: 30px 30px 0; }
+  padding: 20px 30px 0;
+  color: white; }
   .sidenav .logo {
-    height: 120px;
+    height: 80px;
     margin: 0 auto 10px auto;
     display: block; }
   .sidenav h1 {
@@ -28,52 +29,72 @@ body {
     text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     line-height: 3em; }
-  .sidenav .filters .clear-filters {
-    display: block; }
-    .sidenav .filters .clear-filters .btn {
-      background: rgba(0, 0, 0, 0.1);
-      color: white;
-      padding: 5px;
-      text-transform: uppercase;
-      font-weight: 500;
-      line-height: 2em;
-      border: 1px solid rgba(0, 0, 0, 0.2);
-      width: 50%;
-      font-weight: 300;
-      font-size: 0.8em;
-      margin-bottom: 10px; }
-      .sidenav .filters .clear-filters .btn:hover {
-        background: rgba(0, 0, 0, 0.2); }
-    .sidenav .filters .clear-filters .btn-disabled {
-      background: transparent;
-      cursor: default; }
-      .sidenav .filters .clear-filters .btn-disabled:hover {
-        background: transparent; }
-  .sidenav .filters .filter-group {
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    margin-bottom: 10px;
+  .sidenav .filters {
     font-size: 0.9em; }
-    .sidenav .filters .filter-group a {
-      display: block;
-      width: 100%;
-      font-weight: 500;
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-      text-transform: uppercase; }
-    .sidenav .filters .filter-group button {
-      background: transparent none;
-      border: 0;
-      display: block;
-      color: white;
-      width: 100%;
-      text-align: left;
-      font-weight: 300;
-      padding: 0px 15px;
-      line-height: 2em; }
-      .sidenav .filters .filter-group button:hover {
-        background: rgba(0, 0, 0, 0.2); }
+    .sidenav .filters .input-group {
+      margin-bottom: 10px; }
+    .sidenav .filters .clear-filters {
+      display: block; }
+      .sidenav .filters .clear-filters .btn {
+        background: rgba(0, 0, 0, 0.1);
+        color: white;
+        padding: 5px;
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 2em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 50%;
+        font-weight: 300;
+        font-size: 0.9em;
+        margin-bottom: 10px; }
+        .sidenav .filters .clear-filters .btn:hover {
+          background: rgba(0, 0, 0, 0.2); }
+      .sidenav .filters .clear-filters .btn-disabled {
+        background: transparent;
+        cursor: default; }
+        .sidenav .filters .clear-filters .btn-disabled:hover {
+          background: transparent; }
+    .sidenav .filters .filter-group {
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin-bottom: 7px;
+      font-size: 0.9em; }
+      .sidenav .filters .filter-group a {
+        display: block;
+        width: 100%;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        padding: 9px 0;
+        text-transform: uppercase; }
+      .sidenav .filters .filter-group button {
+        background: transparent none;
+        border: 0;
+        display: block;
+        color: white;
+        width: 100%;
+        text-align: left;
+        font-weight: 300;
+        padding: 0px 15px;
+        line-height: 2em; }
+        .sidenav .filters .filter-group button:hover {
+          background: rgba(0, 0, 0, 0.2); }
+  .sidenav .profilemenu {
+    margin: 10px 0 0 0;
+    padding: 10px 0 0 0;
+    list-style: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2); }
+    .sidenav .profilemenu li {
+      line-height: 2em;
+      text-align: center; }
+      .sidenav .profilemenu li a {
+        color: white;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 0.9em; }
+        .sidenav .profilemenu li a i {
+          margin-right: 5px;
+          color: rgba(255, 255, 255, 0.7); }
 
 .content {
   margin-left: 300px;
