@@ -3,6 +3,15 @@ $blue: #1976D2;
 $green: #388E3C;
 $red: #D32F2F;
 $yellow: #FFEB3B;
+
+$dark: rgba(0,0,0,0.1);
+$darker: rgba(0,0,0,0.2);
+$darkest: rgba(0,0,0,0.3);
+
+$light: rgba(255,255,255,0.1);
+$lighter: rgba(255,255,255,0.2);
+$lightest: rgba(255,255,255,0.3);
+
 html {
     height: 100%;
 }
@@ -12,9 +21,10 @@ body {
     font-weight: 400;
     height: 100%;
 }
+
 .sidenav {
     background: $maroon;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 280px;
@@ -22,25 +32,51 @@ body {
     padding: 30px 30px 0;
     .logo {
         height: 120px;
-        margin: 0 auto 30px auto;
+        margin: 0 auto 10px auto;
         display: block;
     }
+    h1 {
+      margin-top: 0px;
+      margin-bottom: 20px;
+    color: white;
+    font-size: 1em;
+    font-weight: 200;
+    text-align: center;
+    border-bottom: 1px solid $darker;
+    line-height: 3em;
+    }
     .filters {
-        .clear-filter {
+        .clear-filters {
             display: block;
-            width: 100%;
-            border-radius: 5px;
-            background: rgba(0,0,0,0.1);
-            border: 0;
+            .btn {
+            background: $dark;
             color: white;
-            padding: 10px;
+            padding: 5px;
             text-transform: uppercase;
             font-weight: 500;
+            line-height: 2em;
+            border: 1px solid $darker;
+            width: 50%;
+            font-weight: 300;
+            font-size: 0.8em;
+            margin-bottom: 10px; 
+            &:hover {
+              background: $darker;
+            }
+          }
+          .btn-disabled {
+            background: transparent;
+            cursor: default;
+            &:hover {
+              background: transparent;
+            }
+          }
         }
         .filter-group {
-            background: rgba(0,0,0,0.2);
+            background: $dark;
             border-radius: 5px;
             margin-bottom: 10px;
+            font-size: 0.9em;
             a {
                 display: block;
                 width: 100%;
@@ -58,9 +94,10 @@ body {
                 width: 100%;
                 text-align: left;
                 font-weight: 300;
-                padding: 5px 15px;
+                padding: 0px 15px;
+                line-height: 2em;
                 &:hover {
-                    background: rgba(0,0,0,0.2);
+                    background: $darker;
                 }
             }
         }
@@ -68,6 +105,13 @@ body {
 }
 .content {
     margin-left: 300px;
+    margin-right: 20px;
+    h2 {
+      font-weight: 200;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      line-height: 2em;
+    }
 }
 .grid-item,
 .grid-sizer {
@@ -150,6 +194,14 @@ ul.contact {
         }
     }
 }
+
+.badge {
+  background: $darker;
+  font-weight: 300;
+  border-radius: 5px;
+}
+
+
 @media only screen and (max-width: 960px) {
     .grid-item {
         width: 33%;

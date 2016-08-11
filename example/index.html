@@ -21,23 +21,62 @@
 
 <body>
   <section class="sidenav">
-    <div class="controls">
-      <div class="button-group filters-button-group">
-        <button class="button is-checked btn btn-default" data-filter="*">show all</button>
+    <img class="logo" src="img/logo.png" />
+    <h1>KCOB Alumni (beta)</h1>
+    <div class="filters">
+      <div class="btn-group clear-filters clearfix">
+        <button class="btn btn-disabled"><span class="badge">0</span> filters</button>
+        <button class="btn button" data-filter="*">clear</button>
+    </div>
+      <div class="filter-group">
+        <a role="button" data-toggle="collapse" href="#collapseHouse" aria-expanded="false" aria-controls="collapseHouse">house <span class="caret"></span></a>
+        <div class="collapse" id="collapseHouse">
+          <button data-filter=".finningley">Finningley <span class="badge">4</span></button>
+          <button data-filter=".gillingham">Gillingham <span class="badge">2</span></button>
+          <button data-filter=".pembroke">Pembroke <span class="badge">2</span></button>
+          <button data-filter=".sheffield">Sheffield <span class="badge">0</span></button>
+        </div>
       </div>
-      <div class="btn-group filters-button-group">
-        <button class="button btn btn-default" data-filter=".finningley">Finningley</button>
-        <button class="button btn btn-default" data-filter=".gillingham">Gillingham</button>
-        <button class="button btn btn-default" data-filter=".pembroke">Pembroke</button>
-        <button class="button btn btn-default" data-filter=".sheffield">Sheffield</button>
+      <div class="filter-group">
+        <a role="button" data-toggle="collapse" href="#collapseYear" aria-expanded="false" aria-controls="collapseYear">year <span class="caret"></span></a>
+        <div class="collapse" id="collapseYear">
+          <button data-filter=".2004">2004 <span class="badge">8</span></button>
+        </div>
       </div>
+      <div class="filter-group">
+        <a role="button" data-toggle="collapse" href="#collapseCountry" aria-expanded="false" aria-controls="collapseCountry">country <span class="caret"></span></a>
+        <div class="collapse" id="collapseCountry">
+          <button data-filter=".southafrica">South Africa <span class="badge">7</span></button>
+          <button data-filter=".unitedkingdom">United Kingdom <span class="badge">1</span></button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <a role="button" data-toggle="collapse" href="#collapseCity" aria-expanded="false" aria-controls="collapseCity">city <span class="caret"></span></a>
+        <div class="collapse" id="collapseCity">
+          <button data-filter=".capetown">Cape Town <span class="badge">3</span></button>
+          <button data-filter=".durban">Durban <span class="badge">4</span></button>
+          <button data-filter=".london">London <span class="badge">1</span></button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <a role="button" data-toggle="collapse" href="#collapseIndustry" aria-expanded="false" aria-controls="collapseIndustry">industry <span class="caret"></span></a>
+        <div class="collapse" id="collapseIndustry">
+          <button data-filter=".financialservices">Financial Services <span class="badge">1</span></button>
+          <button data-filter=".importexport">Import & Export <span class="badge">1</span></button>
+          <button data-filter=".maritime">Maritime <span class="badge">1</span></button>
+          <button data-filter=".marketing">Marketing & Advertising <span class="badge">1</span></button>
+          <button data-filter=".securityinvestigations">Security and Investigations <span class="badge">1</span></button>
+          <button data-filter=".sports">Sports <span class="badge">3</span></button>
+        </div>
+      </div>
+
     </div>
   </section>
   <section class="content">
     <div>
       <div class="grid">
         <div class="grid-sizer"></div>
-        <div class="grid-item transition finningley " data-category="transition">
+        <div class="grid-item transition finningley 2004 southafrica capetown marketing" data-category="transition">
           <figure class="card">
             <span class="pill blue">2004</span>
             <img src="img/dummy-profile/bo.jpg" />
@@ -57,7 +96,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="grid-item transition pembroke" data-category="transition">
+        <div class="grid-item transition pembroke 2004 unitedkingdom london sports" data-category="transition">
           <figure class="card">
             <span class="pill green">2004</span>
             <img src="img/dummy-profile/brad.jpg" />
@@ -77,7 +116,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="grid-item transition finningley " data-category="transition">
+        <div class="grid-item transition finningley 2004 southafrica durban" data-category="transition">
           <figure class="card">
             <span class="pill blue">2004</span>
             <img src="img/dummy-profile/marsh.jpg" />
@@ -97,7 +136,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="grid-item transition finningley " data-category="transition">
+        <div class="grid-item transition finningley 2004 southafrica durban sports" data-category="transition">
           <figure class="card">
             <span class="pill blue">2004</span>
             <img src="img/dummy-profile/logs.jpg" />
@@ -116,7 +155,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="grid-item transition gillingham" data-category="transition">
+        <div class="grid-item transition gillingham 2004 southafrica durban" data-category="transition">
           <figure class="card">
             <span class="pill red">2004</span>
             <img src="img/dummy-profile/kyle.jpg" />
@@ -135,7 +174,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="grid-item transition gillingham" data-category="transition">
+        <div class="grid-item transition gillingham 2004 southafrica capetown" data-category="transition">
           <figure class="card">
             <span class="pill red">2004</span>
             <img src="img/dummy-profile/shack.jpg" />
@@ -154,7 +193,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="grid-item transition pembroke" data-category="transition">
+        <div class="grid-item transition pembroke 2004 southafrica durban" data-category="transition">
           <figure class="card">
             <span class="pill green">2004</span>
             <img src="img/dummy-profile/fassey.jpg" />
@@ -173,7 +212,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="grid-item transition finningley " data-category="transition">
+        <div class="grid-item transition finningley 2004 southafrica capetown sports" data-category="transition">
           <figure class="card">
             <span class="pill blue">2004</span>
             <img src="img/dummy-profile/scott.jpg" />
@@ -204,7 +243,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
   <script>
-
     // init Isotope
     var $grid = $('.grid').isotope({
       itemSelector: '.grid-item',
@@ -228,7 +266,7 @@
       }
     };
     // bind filter button click
-    $('.filters-button-group').on('click', 'button', function() {
+    $('.filters').on('click', 'button', function() {
       var filterValue = $(this).attr('data-filter');
       // use filterFn if matches value
       filterValue = filterFns[filterValue] || filterValue;

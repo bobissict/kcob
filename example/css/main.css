@@ -9,7 +9,7 @@ body {
 
 .sidenav {
   background: #611725;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 280px;
@@ -17,22 +17,43 @@ body {
   padding: 30px 30px 0; }
   .sidenav .logo {
     height: 120px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 10px auto;
     display: block; }
-  .sidenav .filters .clear-filter {
-    display: block;
-    width: 100%;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.1);
-    border: 0;
+  .sidenav h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
     color: white;
-    padding: 10px;
-    text-transform: uppercase;
-    font-weight: 500; }
+    font-size: 1em;
+    font-weight: 200;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    line-height: 3em; }
+  .sidenav .filters .clear-filters {
+    display: block; }
+    .sidenav .filters .clear-filters .btn {
+      background: rgba(0, 0, 0, 0.1);
+      color: white;
+      padding: 5px;
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 2em;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      width: 50%;
+      font-weight: 300;
+      font-size: 0.8em;
+      margin-bottom: 10px; }
+      .sidenav .filters .clear-filters .btn:hover {
+        background: rgba(0, 0, 0, 0.2); }
+    .sidenav .filters .clear-filters .btn-disabled {
+      background: transparent;
+      cursor: default; }
+      .sidenav .filters .clear-filters .btn-disabled:hover {
+        background: transparent; }
   .sidenav .filters .filter-group {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-size: 0.9em; }
     .sidenav .filters .filter-group a {
       display: block;
       width: 100%;
@@ -49,12 +70,19 @@ body {
       width: 100%;
       text-align: left;
       font-weight: 300;
-      padding: 5px 15px; }
+      padding: 0px 15px;
+      line-height: 2em; }
       .sidenav .filters .filter-group button:hover {
         background: rgba(0, 0, 0, 0.2); }
 
 .content {
-  margin-left: 300px; }
+  margin-left: 300px;
+  margin-right: 20px; }
+  .content h2 {
+    font-weight: 200;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 2em; }
 
 .grid-item,
 .grid-sizer {
@@ -123,6 +151,11 @@ ul.contact {
     margin-right: 5px; }
     ul.contact li a {
       color: black; }
+
+.badge {
+  background: rgba(0, 0, 0, 0.2);
+  font-weight: 300;
+  border-radius: 5px; }
 
 @media only screen and (max-width: 960px) {
   .grid-item {
