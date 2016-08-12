@@ -14,7 +14,8 @@ $lighter: rgba(255,255,255,0.2);
 $lightest: rgba(255,255,255,0.7);
 
 // Modules and Variables
-@import
+@import        
 "../sass/base",
 "../sass/sidenav",
-"../sass/content";     
+"../sass/topnav",
+"../sass/content";

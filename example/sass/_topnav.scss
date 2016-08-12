@@ -1,0 +1,16 @@
+.topnav {
+  background: $maroon;
+  color: white;
+  img {
+    height: 35px;
+    float: left;
+    margin: 5px 10px 0px 15px;
+  }
+  h1 {
+    font-size: 1em;
+    margin: 0;
+    line-height: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+}
