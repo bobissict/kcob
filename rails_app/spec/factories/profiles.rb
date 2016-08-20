@@ -21,11 +21,19 @@
 #  house             :string
 #
 
-class Profile < ActiveRecord::Base
-  belongs_to :user
-  belongs_to :industry
-
-  def full_name
-    first_name + ' ' + last_name
+FactoryGirl.define do
+  factory :profile do
+    user
+    industry
+    first_name    "John"
+    sequence(:last_name) { |n| "Doe#{n}" }
+    year_matriculated 2005
+    house "Gillingham"
+    city "Cape Town"
+    country "South Africa"
+    position "Tester"
+    facebook_url "https://facebook.com/test"
+    linkedin_url "https://linkedin.com/test"
+    activated true
   end
 end

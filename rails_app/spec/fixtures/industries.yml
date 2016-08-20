@@ -8,6 +8,10 @@
 #  updated_at :datetime         not null
 #
 
-class Industry < ActiveRecord::Base
-  has_many :profiles
-end
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+
+two:
+  name: MyString

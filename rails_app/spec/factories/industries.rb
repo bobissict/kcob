@@ -8,6 +8,8 @@
 #  updated_at :datetime         not null
 #
 
-class Industry < ActiveRecord::Base
-  has_many :profiles
+FactoryGirl.define do
+  factory :industry do
+    sequence(:name) { |n| "industry#{n}" }
+  end
 end

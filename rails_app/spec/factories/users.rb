@@ -17,8 +17,10 @@
 #  updated_at             :datetime         not null
 #
 
-class User < ActiveRecord::Base
-  has_one :profile
-  devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable
+FactoryGirl.define do
+  factory :user do
+    sequence(:email) { |n| "person#{n}@kcob.com" }
+    password 'password'
+    password_confirmation 'password'
+  end
 end

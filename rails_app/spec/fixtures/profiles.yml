@@ -21,11 +21,30 @@
 #  house             :string
 #
 
-class Profile < ActiveRecord::Base
-  belongs_to :user
-  belongs_to :industry
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-  def full_name
-    first_name + ' ' + last_name
-  end
-end
+one:
+  first_name: MyString
+  last_name: MyString
+  year_matriculated: 1
+  city_id: 1
+  country_id: 1
+  industry_id: 1
+  company: MyString
+  position: MyString
+  facebook_url: MyString
+  linkedin_url: MyString
+  email: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  year_matriculated: 1
+  city_id: 1
+  country_id: 1
+  industry_id: 1
+  company: MyString
+  position: MyString
+  facebook_url: MyString
+  linkedin_url: MyString
+  email: MyString

@@ -21,11 +21,15 @@
 #  house             :string
 #
 
-class Profile < ActiveRecord::Base
-  belongs_to :user
-  belongs_to :industry
+require 'spec_helper'
 
-  def full_name
-    first_name + ' ' + last_name
+class ProfileSpec < ActiveSupport::TestCase
+
+  describe 'full_name' do
+    it 'return the full_name for the profile' do
+      @profile = FactoryGirl.create(:profile, first_name: 'Joe', last_name: 'Bloggs')
+      expect(@profile.full_name).to eq 'Joe Bloggs'
+    end
   end
+
 end
