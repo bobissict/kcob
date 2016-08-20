@@ -17,8 +17,10 @@
 #  updated_at             :datetime         not null
 #
 
-require 'rails_helper'
-
-RSpec.describe User, type: :model do
-  
+FactoryGirl.define do
+  factory :user do
+    sequence(:email) { |n| "person#{n}@kcob.com" }
+    password 'password'
+    password_confirmation 'password'
+  end
 end
