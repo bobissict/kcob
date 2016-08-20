@@ -25,4 +25,11 @@ require 'spec_helper'
 
 class ProfileSpec < ActiveSupport::TestCase
 
+  describe 'full_name' do
+    it 'return the full_name for the profile' do
+      @profile = FactoryGirl.create(:profile, first_name: 'Joe', last_name: 'Bloggs')
+      expect(@profile.full_name).to eq 'Joe Bloggs'
+    end
+  end
+
 end
